@@ -1,0 +1,5 @@
+1. Start postgres db (neon/docker) (docker run -e POSTGRES_PASSWORD=password -d -p 5432:5432 postgres)
+2. in packages/db/env add database url
+3. npx prisma migrate dev && npx prisma generate 
+4. in apps/(merchant and user) add env files
+5. 
